@@ -1,3 +1,5 @@
+# 🏥 Hospital KPI Automation Engine
+
 ## 📌 Problem Statement
 Hospitals often receive daily operational reports through email in CSV or Excel format.  
 These reports must be manually downloaded, cleaned, and aggregated to track key KPIs such as:

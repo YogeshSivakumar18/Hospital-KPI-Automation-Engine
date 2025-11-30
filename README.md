@@ -46,15 +46,21 @@ Every morning, hospitals send their daily KPI report by email.
 Instead of opening the email and downloading the CSV manually, the system steps in and handles everything automatically.
 
 1. **The email arrives.**  
-   n8n watches the mailbox and instantly detects the report. 
+   n8n watches the mailbox and instantly detects the report.
+
+   
 ![Mail Screenshot](./Mail-Screenshot.png)
 
 3. **The file is extracted.**  
    The workflow opens the email, grabs the CSV attachment, and reads the data.
+
+   
 ![Workflow Architecture](./Workflow-architecture.png)
 
 5. **The data is stored safely.**  
    n8n sends the cleaned rows into Supabase PostgreSQL, creating a growing history of daily metrics.
+
+   
 ![Database](./Database.png)
 
 
@@ -64,6 +70,8 @@ Instead of opening the email and downloading the CSV manually, the system steps 
 
 8. **The dashboard displays everything.**  
    The `index.html` page fetches these KPIs and shows them as cards on a clean, lightweight interface.
+
+   
    ![KPI Dashboard](./KPI%20Dashboard.png)
 
 ---

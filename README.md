@@ -1,4 +1,4 @@
-# 🏥 Hospital KPI Automation Engine
+#🏥 Hospital KPI Automation Engine
 
 ## 📌 Problem Statement
 Hospitals often receive daily operational reports through email in CSV or Excel format.  
